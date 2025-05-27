@@ -36,21 +36,17 @@ Three intelligent agents working together:
 ## Architecture
 
 ```
-🔐 Code Generator │    🔐 Infrastructure  │    🔐 Learning Agent  │
-    Agent       │       Agent       │                 │
-                │                   │                 │
-• Code Gen      │ • Terraform     │ • Pattern Learn │
-• Templates     │ • Deployments   │ • Optimization  │
-• Validation    │ • Monitoring    │ • Feedback      │
-🔺                │                   │                 │
-         └──────────────────┘
-                   │
-        🔐 Web Platform        │
-        • Dashboard                 │
-        • API Gateway               │
-        • User Interface            │
-        • Orchestration             │
-🔺                                │
+my-project/
+├── app/
+│   ├── __init__.py
+│   ├── models/
+│   ├── routes/
+│   └── utils/
+├── terraform/
+├── docker-compose.yml
+├── Dockerfile
+├── requirements.txt
+└── README.md
 ```
 
 ---
